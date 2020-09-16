@@ -1,0 +1,53 @@
+.search-box {
+    background: rgb(78, 171, 214);
+    padding: 25px;
+    color: white;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.link-title{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.website-title {
+    display: inline-block;
+    width: 60%;
+}
+.search-box input {
+    color: white;
+    padding: 10px 25px;
+    width: 50%;
+    text-align: start;
+    border-radius: 3px;
+    background: rgb(78, 171, 214);
+    border: 1px solid white;
+}
+
+.input-box {
+    text-align: end;
+    position: relative;
+    display: inline-block;
+    width: 40%;
+}
+
+.autocomplete-box {
+    width: 62%;
+    position: absolute;
+    top: 100%;
+    text-align: start;
+    right: 0;
+    z-index: 99;
+}
+
+.autocomplete-box a {
+    background: rgb(68, 152, 190);
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border: white 1px solid;
+    border-top: none;
+}
